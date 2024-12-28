@@ -1,0 +1,219 @@
+* {  
+    margin: 0;  
+    padding: 0;  
+    box-sizing: border-box;  
+}  
+
+body {  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    line-height: 1.8;  
+    background-color: #f4f4f4;  
+    color: #333;  
+    background-image: url(images.jpeg); 
+    background-size: cover;   
+    background-position: center;  
+    background-repeat: no-repeat;
+}  
+
+
+nav {  
+    background-color: rgba(51, 51, 51, 0.9);
+    color: #fff;  
+    padding: 20px;  
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    position: sticky;  
+    top: 0;  
+    z-index: 1000;  
+}  
+
+nav ul {  
+    display: flex;  
+    justify-content: center;  
+    list-style-type: none;  
+}  
+
+nav ul li {  
+    margin: 0 25px;
+}  
+
+nav ul li a {  
+    color: #fff;  
+    text-decoration: none;  
+    font-size: 20px;
+    padding: 10px;
+    transition: color 0.3s ease, transform 0.2s;  
+}  
+
+nav ul li a:hover {  
+    text-decoration: underline;  
+    color: #0e6266;  
+    transform: scale(1.05);
+}  
+
+
+section h1 {  
+    text-align: center;  
+    margin: -10px;  
+    font-size: 2.5em; 
+    color: #08ddf0;
+}  
+
+section h2 {
+    text-align: center;
+    margin: -10px;
+    font-size: 2.5em;
+    color: rgba(235, 73, 73, 0.9)
+}
+
+  
+section {  
+    padding: 110px;  
+    margin: 100px auto;  
+    background-color: rgba(54, 51, 51, 0.8);
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(56, 56, 56, 0.644); 
+    max-width: 800px;  
+    backdrop-filter: blur(-10px);
+}  
+
+#projelerim ul {  
+    list-style-type: none;  
+    padding: 0; 
+}  
+
+#projelerim ul li {  
+    background-color: rgba(241, 241, 241, 0.9);
+    margin: 30px 0;  
+    padding: 40px;  
+    border-radius: 6px;  
+    transition: transform 0.3s, box-shadow 0.3s; 
+}  
+
+#projelerim ul li:hover {  
+    transform: scale(1.03);  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}  
+
+section p {  
+    font-size: 18px;  
+    color: #ddd; 
+}  
+
+
+@media (max-width: 768px) {  
+    nav ul {  
+        flex-direction: column;  
+    }  
+
+    nav ul li {  
+        margin: 15px 0;
+    }  
+
+    section {  
+        padding: 30px;
+        margin: 10px;  
+    }  
+}
+
+.profil-resmi {  
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; 
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 20px;
+}  
+
+body {  
+    font-family: Arial, sans-serif;  
+}  
+
+h1 {  
+    color: #333;  
+}  
+
+.sosyal-medya {  
+    margin-top: 10px;  
+    display: flex;  
+    gap: 10px;
+}  
+
+.ikon {  
+    width: 40px;   
+    height: 40px;   
+    background-color: #fff; 
+    border-radius: 50%;
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);  
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;  
+}  
+
+.ikon:hover {  
+    background-color: #333;
+    color: #fff;
+}
+/* Temel stil */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Sosyal medya ikonları stil */
+.social-links {
+    margin-top: 20px;
+}
+
+.social-icon {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-icon img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+/* Hover efekti */
+.social-icon:hover img {
+    transform: scale(1.1);
+}
+/* Genel stil ayarları */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Misyon bölümünün stili */
+.mission {
+    background-color: #ffffff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.mission-title {
+    font-size: 2em;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.mission-description {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+    margin-top: 20px;
+}
